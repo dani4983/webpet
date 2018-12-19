@@ -1,0 +1,51 @@
+body {
+    background: papayawhip;
+    font-family: 'Charm', cursive;
+    color: indigo
+}
+
+.btn {
+    border-radius:                    0px;
+    -webkit-border-radius:            0px;
+    -moz-border-radius:               0px;
+}
+
+#fondo1 {
+    background: url("../img/perros-durmiendo-camas-duenos.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+     background-size: cover;
+    height: 70vh;
+    color: chocolate;
+    font-size: 40px;
+    font-family: 'B612', sans-serif;
+}
+
+#img {
+    background: url("../img/img10.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 110vh;
+}
+
+#contactos {
+    background: burlywood;
+}
+
+@media screen and(min-width: 992px){
+    
+}
+
+@media screen and (max-width: 768px){
+    #fondo1 h4 {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 676px){
+    #fondo1 h3 {
+        display: none;
+    }
+}
